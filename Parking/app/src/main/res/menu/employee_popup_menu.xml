@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_update"
+        android:title="Mettre à jour"
+        android:icon="@drawable/baseline_control_point_duplicate_24"
+        />
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/baseline_delete_forever_24"
+        android:title="Supprimer" />
+</menu>

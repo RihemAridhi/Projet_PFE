@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:layout_marginHorizontal="12dp"
+    android:background="@color/purple"
+    android:elevation="6dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/item_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/plateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/acme"
+            android:text="Plaque : "
+            android:textSize="20sp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/baseline_assignment_24" />
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/acme"
+            android:text="Date : "
+            android:textSize="20sp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/baseline_more_time_24" />
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/baseline_assignment_turned_in_24"
+            android:fontFamily="@font/acme" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

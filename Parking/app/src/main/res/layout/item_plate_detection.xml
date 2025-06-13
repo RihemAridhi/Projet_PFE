@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="6dp"
+    android:background="@color/purple">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:id="@+id/textViewPlateNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Plaque : "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/baseline_commute_24"/>
+
+        <TextView
+            android:id="@+id/textViewEntryTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrée : "
+            android:textSize="16sp"
+            android:paddingTop="4dp"
+            android:drawableLeft="@drawable/baseline_access_time_24"/>
+
+        <TextView
+            android:id="@+id/textViewExitTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sortie : "
+            android:textSize="16sp"
+            android:paddingBottom="4dp"
+            android:drawableLeft="@drawable/baseline_access_time_24"/>
+
+
+        <TextView
+            android:id="@+id/textViewOwnerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employé : "
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/baseline_attribution_24"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
